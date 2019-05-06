@@ -1,0 +1,35 @@
+name: fitnessapp
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+ uses-material-design: true
+
+  
+# To add assets to your application, add an assets section, like this:
+assets:
+  - img/img1.jpg
+  - img/img2.jpg
+  - img/img3.jpg
+  - img/img4.jpg
+  - img/img5.jpg
+  - img/img6.jpg
+  - img/img7.jpg
+  - img/img8.jpg
+
