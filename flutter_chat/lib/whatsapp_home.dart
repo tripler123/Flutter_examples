@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'pages/camera_alt.dart';
-import 'pages/chat_screen.dart';
+import 'pages/chat_list.dart';
 import 'pages/calls.dart';
 import 'pages/status_screen.dart';
 
@@ -37,7 +37,7 @@ class _WhatsAppHomeState extends State<WhatsAppHome>
       ),
       body: new TabBarView(
         controller: _controller,
-        children: <Widget>[new Camera(), new Chat(), new Status(), new Calls()],
+        children: <Widget>[new Camera(), new ChatList(), new Status(), new Calls()],
       ),
     );
   }
