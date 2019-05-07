@@ -47,6 +47,7 @@ class _ChatScreenState extends State<ChatScreen> with TickerProviderStateMixin {
                       _isTyped = text.length > 0;
                     });
                   },
+                  decoration: new InputDecoration.collapsed(hintText: "Enviar Mensaje"),
                 ),
               ),
               new Container(

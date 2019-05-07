@@ -37,7 +37,17 @@ class _WhatsAppHomeState extends State<WhatsAppHome>
       ),
       body: new TabBarView(
         controller: _controller,
-        children: <Widget>[new Camera(), new ChatList(), new Status(), new Calls()],
+        children: <Widget>[
+          new Camera(),
+          new ChatList(),
+          new Status(),
+          new Calls()
+        ],
+      ),
+      floatingActionButton: new FloatingActionButton(
+        backgroundColor: Color(0xff250366),
+        child: Icon(Icons.message),
+        onPressed: () {},
       ),
     );
   }
