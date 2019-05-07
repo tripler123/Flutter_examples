@@ -13,23 +13,23 @@ class _StatusState extends State<Status> {
       body: new ListView(
         children: <Widget>[
           new ListTile(
-              leading: CircleAvatar(
-                backgroundImage: NetworkImage(status[0].imageUrl),
-              ),
-              title: new Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: <Widget>[
-                  Text(
-                    status[0].name,
-                    style: TextStyle(fontWeight: FontWeight.bold),
-                  ),
-                  Text(
-                    status[0].time,
-                    style: TextStyle(color: Colors.grey, fontSize: 14.0),
-                  ),
-                ],
-              ),
-              subtitle: new Text(data),),
+            leading: CircleAvatar(
+              backgroundImage: NetworkImage(status[0].imageUrl),
+            ),
+            title: new Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: <Widget>[
+                Text(
+                  status[0].name,
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+                Text(
+                  status[0].time,
+                  style: TextStyle(color: Colors.grey, fontSize: 14.0),
+                ),
+              ],
+            ),
+          ),
           Padding(
             padding: const EdgeInsets.only(left: 16.0, top: 10.0),
             child: new Text(
